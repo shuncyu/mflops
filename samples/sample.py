@@ -10,7 +10,7 @@ if __name__ == '__main__':
     try:
         # darknet
         print("\nDarknet")
-        model_def = "/home/yons/Company/Work/Modules/models/model_pruning/yolov3/Pruning_1/config/gesture5_v8.cfg"
+        model_def = "gesture5_v8.cfg"
         model = Darknet(model_def)  
     
         flops, mac, params = get_model_compute_info(model, (3, 224, 224))
