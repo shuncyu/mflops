@@ -1,4 +1,6 @@
 # Flops counter for convolutional networks in pytorch framework
+This work is based on https://github.com/sovrasov/flops-counter.pytorch.
+
 This script is designed to compute the theoretical amount of multiply-add operations
 in convolutional neural networks. It also can compute the number of parameters and
 print per-layer computational cost of a given network.
