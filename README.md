@@ -1,4 +1,6 @@
 # Flops counter for convolutional networks in pytorch framework
+This work is based on https://github.com/sovrasov/flops-counter.pytorch.
+
 This script is designed to compute the theoretical amount of multiply-add operations
 in convolutional neural networks. It also can compute the number of parameters and
 print per-layer computational cost of a given network.
@@ -30,11 +32,6 @@ for research purposes. For an instance, one can drop all convolutuions from the 
 specifying `ignore_modules=[torch.nn.Conv2d]`.
 
 ## Install the latest version
-From PyPI:
-```bash
-pip install mflops
-```
-
 From this repository:
 ```bash
 pip install --upgrade git+https://github.com/shuncyu/mflops
